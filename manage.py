@@ -7,6 +7,7 @@ import sys
 def main():
     """Run administrative tasks."""
     sys.path.append("/vroom")
+    sys.path.append("/cars")
 
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'vroom.settings')
     try:
